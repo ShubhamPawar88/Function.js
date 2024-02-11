@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //there are 2 types of function parameters in JS
+        //1.default parameters
+        //2.rest parameters => in rest parameters we can pass infinite no of arguments/paramters to the function
+
+        //In below code, num is rest parameter which can hold any number of arguments. basically, rest parameter is preceded by ... 3 dots
+
+        function addvalues(...num)
+        {
+              for(  let    n   of  num)
+           {
+             document.write("<br>"+n);
+
+            }
+        }
+        addvalues(3,4,5,6,7,8);
+    </script>
+</body>
+</html>

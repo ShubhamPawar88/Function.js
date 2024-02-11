@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //the purpose behind the creation of an arrow function is to make code more concise(short) and more readable
+
+      //syntax of arrow function is  () => {}
+        let z=(a,b) =>
+        {
+            return a+b;
+        }
+        document.write("add="+z(7,4));
+
+
+         //1.when function consits of exactly one statement the arrow function should be written like below;
+
+        let z1=(a,b) => a+b;
+    
+        document.write("<br>add="+z1(10,4));
+
+         //2.when arrow function is having no argument
+          //In below code , _ indicates function is having zero parameters
+          // let x=  () => "good evening!!";
+        let x= _ =>"good evening";
+        document.write("<br> hello everyone ="+x());
+    </script>
+</body>
+</html>

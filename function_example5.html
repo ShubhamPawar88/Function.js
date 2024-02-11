@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function evenNumber(start,end)
+    {
+        for(i=start;i<=end;i=i+2)
+        {
+            document.write("<br>"+i);
+        }
+    }
+    let s=parseInt(prompt("Enter value of start"));
+    let e=parseInt(prompt("enter value of end"))
+    if(s%2==0)
+    {
+       
+    evenNumber(s,e);
+    }
+    else{
+        document.write("please enter even no as starting value");
+    }
+</script>
+</body>
+</html>

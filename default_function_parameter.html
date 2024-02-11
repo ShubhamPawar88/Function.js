@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //default parameters=> in below code at a time of calling multiply(8) function we have passed just the value of variable x beacuse in value y it will take default value 2
+        function multiply(x,y=4)
+        {
+            return x*y;
+        }
+        document.write("multiplication ="+multiply(8));
+
+        //NaN=> stands for Not a Number it is a numeric datatype which means the value is undefined or the value cannot be reprsented
+        function multiply1(x=9,y)
+        {
+            return x*y;
+        }
+        document.write("<br>multiplication ="+multiply1(3));
+    </script>
+</body>
+</html>
